@@ -12,6 +12,10 @@ Adam Eivy keeps busy with eclectic hobbies: creating web frameworks at Disney, b
 * Portfolio: [http://adameivy.com](http://adameivy.com) (a bit outdated but that's how things go)
 * LinkedIn: [@antic](http://www.linkedin.com/in/antic)
 
+Launch
+---
+Since GitHub has support for pages, you can [view the slides hosted on GitHub](http://atomantic.github.com/slides-versioncontrol)
+
 Kudos
 ---
 Many thanks to [bartaz](https://github.com/bartaz) for creating [impress.js](https://github.com/bartaz/impress.js) so I didn't have to :)
