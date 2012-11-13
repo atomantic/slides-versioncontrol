@@ -76,7 +76,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
+li pre {
+    font-size:20px;
+    background-color:#000;
+    color:#0ff;
+    padding:5px 10px;
+    margin:0 50px;
+    line-height:20px;
+    font-family:courier;
+    border-radius:4px;
+    moz-border-radius:4px;
+}
 /*
     Now here is when interesting things start to appear.
     
@@ -284,6 +294,10 @@ b {
     transition:         0.5s;
 }
 
+b.label{
+    color:#69c;
+}
+
 /*
     ... and we want 'positioning` word to move up a bit when the step gets
     `present` class ...
@@ -407,7 +421,7 @@ b {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 200px;
+    bottom: 100px;
     
     background: rgba(0,0,0,0.5);
     color: #EEE;
@@ -457,7 +471,7 @@ b {
 /*
     ... and we will show it when the first step (with id 'bored') is active.
 */
-.impress-on-bored .hint {
+.impress-on-hi .hint {
     /*
         We remove the transparency and position the hint in its default fixed
         position.

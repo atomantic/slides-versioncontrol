@@ -94,7 +94,7 @@
     -->
     <div id="hi" class="step slide" data-x="0" data-y="0" data-scale="4">
         <h1><b class="rotating">\[._.]/</b> - Oh, Hi!</h1>
-        <q>I'm <b>Adam Eivy</b> (<a href="http://twitter.com/antic">@antic)</a></q>
+        <q>I'm <b>Adam Eivy</b> (<a href="http://twitter.com/antic" target="off">@antic)</a></q>
         <p>
             Sr. Staff Software Engineer, Disney<br />
             Occasional Web Development Instructor, SCCC
@@ -127,7 +127,7 @@
     </div>
     <div id="collaboration" class="step slide" data-x="4000" data-y="500" data-rotate="-90" data-z="300">
         <h1>Collaboration</h1>
-        <p>It isn't always easy.</p>
+        <p><br />It isn't always easy.</p><br /><br />
         <ul>
             <li>Change conflicts</li>
             <li>Accountability ( <b class="scaling">blame</b> / <b class="rotating">kudos</b> )</li>
@@ -138,10 +138,10 @@
         <h1>History</h1>
         <p>Looking up code history can answer a lot of questions about how code got where it is:</p>
         <ul>
-            <li>Who? Commit Author</li>
-            <li>What? File Diffs</li>
-            <li>When? Each commit is timestamped</li>
-            <li>Why? Commit Messages (defect numbers, dev notes, etc)</li>
+            <li><b class="label">Who?</b> Commit Author</li>
+            <li><b class="label">What?</b> File Diffs</li>
+            <li><b class="label">When?</b> Each commit is timestamped</li>
+            <li><b class="label">Why?</b> Commit Messages</li>
         </ul>
     </div>
     <div id="branching" class="step slide" data-x="4000" data-y="-1500" data-z="300" data-rotate-x="20" data-rotate-y="0" data-rotate="-90">
@@ -183,10 +183,10 @@
             <li>Still causes conflicts with multiple devs</li>
         </ul>
     </div>
-    <div id="rename-person" class="step" data-x="-1500" data-y="3500" data-z="-500" data-scale=".2">
+    <div id="rename-person" class="step" data-x="-1500" data-y="3500" data-z="1000">
         <img src="img/meme-neverusesvcs.jpg" class="center" />
     </div>
-    <div id="rename-result" class="step" data-x="-1500" data-y="3500" data-z="-1000" data-scale=".2">
+    <div id="rename-result" class="step" data-x="-1500" data-y="3500" data-z="2000">
         <img src="img/meme-filerename.jpg" class="center" />
     </div>
     
@@ -201,7 +201,7 @@
             <li>No history/versioning/backup/etc</li>
         </ul>
     </div>
-    <div id="dreamweaver-result" class="step" data-x="-500" data-y="3500" data-z="-500" data-scale=".2">
+    <div id="dreamweaver-result" class="step" data-x="-500" data-y="3500" data-z="1000">
         <h1>ಠ_ಠ</h1>
         <img src="img/meme-noneedforscm.jpg" class="center" />
     </div>
@@ -210,16 +210,16 @@
         <h1>Subversion (SVN)</h1>
         <p></p>
         <ul>
-            <li>Stores in a centralized remote repository</li>
-            <li>Changes are made on the remote server</li>
+            <li>Centralized remote repository</li>
+            <li>Changes made on the remote server</li>
             <li>Single source of truth</li>
-            <li>Branching is Painful</li>
+            <li>Branch merging is PAINFUL!</li>
         </ul>
     </div>
-    <div id="svn-person" class="step" data-x="500" data-y="3500" data-z="-500" data-scale=".2">
+    <div id="svn-person" class="step" data-x="500" data-y="3500" data-z="1000">
         <img src="img/meme-notdistributed.jpg" class="center" />
     </div>
-    <div id="svn-result" class="step" data-x="500" data-y="3500" data-z="-1000" data-scale=".2">
+    <div id="svn-result" class="step" data-x="500" data-y="3500" data-z="2000">
         <img src="img/meme-svnlost.jpg" class="center" />
     </div>
     
@@ -242,71 +242,92 @@
         <h1>Process</h1>
         <ul>
            <li>Check in frequently</li>
+           <li><a href="http://en.wikipedia.org/wiki/Diff" target="off">What's the diff?</a></li>
            <li>Code Review</li>
            <li>Fork and Pull Request</li>
-           <li>Continuous Integration</li>
         </ul>
     </div>
     <div id="process-frequent" class="step slide" data-x="-4000" data-y="1500" data-rotate="90">
         <h1>Check in frequently</h1>
         <ol>
-           <li>Commit locally</li>
-           <li>Rebase to wrap-up changes</li>
-           <li>Push it out</li>
-           <li>Bask in awesomeness</li>
+           <li>Commit locally
+               <pre>git commit -m 'added some stuff'</pre>
+           </li>
+           <li>Rebase to wrap-up changes
+               <pre>git rebase</pre>
+           </li>
+           <li>Push it out
+               <pre>git push</pre>
+           </li>
+           <li>Bask in awesomeness
+                <pre>\[._.]/</pre>
+           </li>
         </ol>
     </div>
-    <div id="process-review" class="step slide" data-x="-4000" data-y="500" data-rotate="90">
+    <div id="process-diff" class="step slide" data-x="-4000" data-y="500" data-rotate="90">
+    </div>
+    <div id="process-diffimage" class="step" data-x="-4000" data-y="500" data-z="1000" data-rotate="90">
+        <img src="img/diff.png" class="center" />
+    </div>
+    <div id="process-review" class="step slide" data-x="-4000" data-y="-500" data-rotate="90">
         <h1>Code Review</h1>
         <ul>
             <li>Comment on checkins</li>
-            <li>Deny pull requests</li>
+            <li>Line commenting</li>
+            <li>Tag and add notes</li>
             <li>Kudos (^5)</li>
         </ul>
     </div>
-    <div id="process-diff" class="step" data-x="-4000" data-y="500" data-z="-1000" data-rotate="90">
-        <img src="img/diff.png" class="center" />
-    </div>
-    <div id="process-fork" class="step slide" data-x="-4000" data-y="-500" data-rotate="90">
+    <div id="process-fork" class="step slide" data-x="-4000" data-y="-1500" data-rotate="90">
         <h1>Fork and Pull Request</h1>
+        <p>OK, this is more advanced</p>
         <ul>
-            <li></li>
-        </ul>
-    </div>
-    <div id="process-ci" class="step slide" data-x="-4000" data-y="-1500" data-rotate="90">
-        <h1>Continuous Integration</h1>
-        <ul>
-            <li></li>
+            <li>Fork a project on Github<br/><img src="img/fork.png" /></li>
+            <li>Create a branch
+                <pre>git checkout -b FixingResponsiveLayout</pre>
+            </li>
+            <li>Fix a bug
+<pre>git commit -m 'now the plugin handles responsive layout';
+git push</pre>
+            </li>
+            <li>Submit a pull request<br/><img src="img/pullrequest.png" /></li>
         </ul>
     </div>
     
     <div id="nextsteps" class="step slide" data-x="50" data-y="-2300" data-scale="2" data-rotate="180">
-        <h1>What now?</h1>
+        <h1>What now?</h1><br /><br />
         <img src="img/meme-versioncontrolallthings.jpg" class="center" />
     </div>
     <div id="trygit" class="step slide" data-x="1500" data-y="-3500" data-rotate="180">
-        <h1><a href="http://try.github.com/levels/1/challenges/1">Code School</a></h1>
-        <a href="http://try.github.com/levels/1/challenges/1" target="demo">
-            <img src="img/trygit.gif" class="center" />
+        <h1><a href="http://try.github.com">Code School</a></h1>
+        <a href="http://try.github.com" target="off">
+            <img src="img/trygit.gif" class="center" /><br />
+            http://try.github.com
         </a>
     </div>
     <div id="markdown" class="step slide" data-x="500" data-y="-3500" data-rotate="180">
-        <h1>Markdown</h1>
-        <ul>
-            <li></li>
-        </ul>
+        <h1><a href="http://daringfireball.net/projects/markdown/" target="off">Markdown</a></h1>
+        <p>Create a README.md file in every project!</p>
+        <a href="http://daringfireball.net/projects/markdown" target="off">
+            <img src="img/markdown.png" class="center" /><br />
+            http://daringfireball.net/projects/markdown
+        </a>
     </div>
     <div id="commandline" class="step slide" data-x="-500" data-y="-3500" data-rotate="180">
         <h1>Command Line</h1>
         <ul>
-            <li></li>
+            <li>Learn it</li>
+            <li>Use it</li>
+            <li>&lt;3 it</li>
         </ul>
     </div>
     <div id="N4" class="step slide" data-x="-1500" data-y="-3500" data-rotate="180">
-        <h1>Diff</h1>
-        <ul>
-            <li></li>
-        </ul>
+        <h1>Free Ebook</h1>
+        <h1><a href="http://git-scm.com/book/">Pro Git</a></h1>
+        <a href="http://git-scm.com/book/" target="off">
+            <img src="img/pro-git-118x157.jpg" class="center" /><br />
+            http://git-scm.com/book/
+        </a>
     </div>
 
     <!--
