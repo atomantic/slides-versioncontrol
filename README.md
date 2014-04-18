@@ -1,18 +1,20 @@
 Why Not Git Version Control?
 ====
 
-This is the slidewarez for Adam Eivy's Version Control presentation to the Seattle Central Community College Byte Club on Nov 16th, 2012
+v2. 2014.05.27: Slidewarez for guest lecture to Mike Sinkula's HCDE437 class on May 27th, 2014. [Class information here](http://www.sccc.premiumdw.com/hcde437/)
+
+v1. 2012.11.16: Slidewarez for Adam Eivy's Version Control presentation to the Seattle Central Community College Byte Club 
 
 Bio
 ---
-Adam Eivy keeps busy with eclectic hobbies: creating web frameworks at Disney, being a father at home, and attempting to enter the world of comics at the [Bureau of Drawers](http://thebureauofdrawers.blogspot.com/). Over the last 10 years, he has been a developer for a variety of startup companies, freelanced at his own, and [taught web development](http://ipirates.net) at Seattle Central Community College.
+Adam Eivy keeps busy with eclectic hobbies: creating web frameworks at Disney, being a father at home, and attempting to enter the world of comics at the [Bureau of Drawers](http://thebureauofdrawers.blogspot.com/). Over the last 12 years, he has been a developer for a variety of startup companies, freelanced at his own, and [taught web development](http://ipirates.net) at Seattle Central Community College.
 
 * Twitter: [@antic](https://twitter.com/antic)
 * GitHub: [@atomantic](https://github.com/atomantic)
 * Portfolio: [http://adameivy.com](http://adameivy.com) (a bit outdated but that's how things go)
 * LinkedIn: [@antic](http://www.linkedin.com/in/antic)
 
-Launch
+View the Slides
 ---
 Since GitHub has support for pages, you can [view the slides hosted on GitHub](http://atomantic.github.com/slides-versioncontrol)
 
