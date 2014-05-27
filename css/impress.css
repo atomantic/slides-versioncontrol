@@ -574,3 +574,6 @@ tt {
     border: 1px solid #ddd;
     zoom: 1;
 }
+.center{
+    text-align:center;
+}
